@@ -1,0 +1,129 @@
+/* CSS */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tooltip-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.tooltip-container span {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: black;
+}
+
+.tooltip-container span a {
+  text-decoration: none;
+}
+
+.tooltip-container span a:hover {
+  color: #23527c;
+}
+
+.tooltip-image {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip-container span:hover .tooltip-image {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-image {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 350px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+h2{
+  text-align: center;
+}
+
+button {
+  margin-left: 47%;
+}
+
+body {
+  background-color: wheat;
+}
+
+a {
+  color : black;
+}
+
+.tooltip-row-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 20px;
+}
+
+.tooltip-row-2 span {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.tooltip-row-2 span a {
+  text-decoration: none;
+}
+
+.tooltip-row-2 span a:hover {
+  color: #23527c;
+}
+
+.tooltip-row-2 .tooltip-image {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 350px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip-row-2 span:hover .tooltip-image {
+  visibility: visible;
+  opacity: 1;
+}
+
+button {
+  margin-top: 10px;
+}
